@@ -2,7 +2,7 @@ import { Box, Container, Flex, Heading, Image, Text, VStack } from "@chakra-ui/r
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" py={8}>
+    <Container maxW="container.xl" py={8} bg="#fff1e5">
       <Flex direction={{ base: "column", md: "row" }} justify="space-between">
         <Box flex="3" mr={{ md: 8 }}>
           <Heading as="h2" size="xl" mb={4}>Top News</Heading>
