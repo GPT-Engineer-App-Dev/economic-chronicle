@@ -3,7 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 const World = () => {
   return (
-    <Container maxW="container.xl" py={8}>
+    <Container maxW="container.xl" py={8} bg="#fff1e5">
       <Heading as="h2" size="xl" mb={4}>World News</Heading>
       <Text>Content for World News goes here.</Text>
       <Box mt={4}>

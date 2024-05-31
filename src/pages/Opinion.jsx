@@ -3,7 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 const Opinion = () => {
   return (
-    <Container maxW="container.xl" py={8}>
+    <Container maxW="container.xl" py={8} bg="#fff1e5">
       <Heading as="h2" size="xl" mb={4}>Opinion</Heading>
       <Text>Content for Opinion goes here.</Text>
       <Box mt={4}>
